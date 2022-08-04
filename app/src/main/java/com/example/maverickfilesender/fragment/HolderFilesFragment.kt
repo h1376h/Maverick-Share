@@ -48,11 +48,11 @@ Constants.holderFilesFragment=this
 
 
        this.childFragmentManager?.beginTransaction().apply {
-this.setReorderingAllowed(true)
+this?.setReorderingAllowed(true)
 
 
-            this.replace(view.holder_files_fragment.id,StorageDirectoryFragment())
-            this.commitAllowingStateLoss()
+            this?.replace(view.holder_files_fragment.id,StorageDirectoryFragment())
+            this?.commitAllowingStateLoss()
 
         }
 

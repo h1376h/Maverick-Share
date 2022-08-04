@@ -118,7 +118,7 @@ finish()
 
 
                    val mDrawable=Drawable.createFromStream(inputStream, data!!.data!!.toString())
-bitmap=getBitmapFromDrawable(mDrawable)
+bitmap=getBitmapFromDrawable(mDrawable!!)
 civ_user_profile.setImageBitmap(bitmap)
 
 

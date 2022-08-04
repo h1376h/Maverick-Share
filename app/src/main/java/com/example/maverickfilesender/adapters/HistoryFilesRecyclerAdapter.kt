@@ -182,7 +182,7 @@ class HistoryFilesRecyclerAdapter(val context: Context, val appFileList: ArrayLi
 
 
                     Glide.with(context)
-                            .load(R.drawable.ic_round_light_insert_drive_file_24)
+                            .load(R.drawable.ic_outline_image_24)
                             .centerCrop()
                             .into(holder.itemView.imv_history_fileIcon)
 
@@ -191,7 +191,7 @@ class HistoryFilesRecyclerAdapter(val context: Context, val appFileList: ArrayLi
                 }
                 else{
                     Glide.with(context)
-                            .load(R.drawable.ic_round_dark_insert_drive_file_24)
+                            .load(R.drawable.ic_outline_image_24)
                             .centerCrop()
                             .into(holder.itemView.imv_history_fileIcon)
 
